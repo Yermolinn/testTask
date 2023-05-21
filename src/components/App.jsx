@@ -1,4 +1,4 @@
-import { UserCardList } from './UserList/UserCardList';
+import { UserCardList } from './UserCardList/UserCardList';
 
 export const App = () => {
   return (

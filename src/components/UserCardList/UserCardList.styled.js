@@ -1,27 +1,24 @@
-import styled from "@emotion/styled";
-
-
-
-
+import styled from '@emotion/styled';
 
 export const UserList = styled.ul`
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 20px;
-list-style: none;
-`
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+`;
 
 export const Pagination = styled.div`
-display: flex;
-gap: 30px;
-align-items: center;
-justify-content: center;
-`
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const PreviousBtn = styled.button`
-width: 150px;
+  width: 150px;
   height: 50px;
 
   background: #ebd8ff;
@@ -35,19 +32,14 @@ width: 150px;
   font-size: 14px;
   line-height: 22px;
   color: #373737;
-  
+
   :hover {
-    background-color: #5CD3A8;
+    background-color: #5cd3a8;
   }
-
-  
-`
-
-
-
+`;
 
 export const LoadMoreBtn = styled.button`
-width: 150px;
+  width: 150px;
   height: 50px;
 
   background: #ebd8ff;
@@ -62,7 +54,7 @@ width: 150px;
   line-height: 22px;
   color: #373737;
 
-:hover {
-    background-color: #5CD3A8;
-  } 
-`
+  :hover {
+    background-color: #5cd3a8;
+  }
+`;
